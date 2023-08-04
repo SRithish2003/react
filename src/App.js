@@ -8,12 +8,13 @@ import Functionprops from './Functionprops';
 
 
 
- function App() {
+
+function App() {
   
   return (
   
     <div >
-           <header className="App-header">
+         <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           RITHISH
@@ -30,6 +31,7 @@ import Functionprops from './Functionprops';
 </div>
   );
   }
+
 
 
 
