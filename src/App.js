@@ -7,20 +7,30 @@ import Functionprops from './Functionprops';
 
 
 
-class App extends React.Component {
-  render(){
+function App() {
+  
   return (
   
     <div >
-      <Home/>
-          
-     <Classprops name ="Rithish" place="Chennai"/>
-     <Classprops name ="Ram" place="Madurai"/>
-     <Classprops name ="Rajesh" place="Coimbatore"/>
-     <Functionprops name='Riya' place="Theni"/>
+     
+     <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          RITHISH
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
 </div>
   );
+  
   }
-}
+
 
 export default App;
